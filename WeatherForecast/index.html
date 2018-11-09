@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <h1>Weather Forecast</h1>
+</header>
+<section>
+    <div class="input-area">
+        <label for="nameCity">Enter city &#8594;</label>
+        <input type="text" id="nameCity" name="city-name" onkeydown="checkEnter(event)">
+        <button id="btnSubmit" onclick="getWeatherForecast()">Show Weather</button>
+    </div>
+</section>
+<div class="wrapper">
+    <div id="results">
+        <div class="headline-of-city">
+            <h2 id="city"></h2>
+            <img id="icon-weather" width="50px" height="50px" alt="icon-weather">
+        </div>
+        <div class="information-block">
+            <p id="city-temperature"></p>
+            <p id="city-pressure"></p>
+            <p id="city-humidity"></p>
+            <p id="city-windSpeed"></p>
+        </div>
+
+    </div>
+</div>
+
+<script src="script/script.js"></script>
+</body>
+</html>
