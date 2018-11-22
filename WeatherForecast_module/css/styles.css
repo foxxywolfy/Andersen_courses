@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    background-color: #73CCAA;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font: 62px "Bebas Neue Regular";
+    color: #A165B2;
+}
+
+section {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.input-area {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+label, #btnSubmit {
+    color: #FFDE8F;
+}
+
+label {
+    width: 185px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#btnSubmit {
+    border: 1px solid #A165B2;
+    width: 200px;
+    font-size: 20px;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+#btnSubmit:hover {
+    background-color: #A165B2;
+}
+
+#btnSubmit:active {
+    background-color: #A575B2;
+    border: 1px solid #A165B2;
+}
+
+#nameCity {
+    border: 1px solid #A165B2;
+    width: 240px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#nameCity:focus {
+    background-color: #F4CFFF;
+    border: 2px solid #A165B2;
+}
+
+#nameCity:visited {
+    background-color: #F4CFFF;
+}
+
+.wrapper {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+#results {
+    width: 450px;
+    height: 400px;
+    display: none;
+    color: #A165B2;
+}
+
+.headline-of-city {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    float: left;
+
+}
+
+.information-block {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: "Bebas Neue Regular";
+    font-style: normal;
+    src: url("../fonts/Bebas Neue.ttf") format("truetype");
+}
